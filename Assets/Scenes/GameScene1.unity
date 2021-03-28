@@ -5899,7 +5899,7 @@ MonoBehaviour:
   devMode: 1
   waves:
   - infinite: 0
-    enemyCount: 10
+    enemyCount: 0
     timeBetweenSpawns: 1.5
     moveSpeed: 2
     hitsToKillPlayer: 5
@@ -16231,7 +16231,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 1815
+    m_Bits: 3863
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
