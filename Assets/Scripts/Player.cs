@@ -37,8 +37,11 @@ public class Player : LivingEntity {
 		}
 		
 		// Pew pew input!
-		if (Input.GetMouseButton (0)) {
-			gunController.Shoot();
+		if (Input.GetMouseButton(0)) {
+			gunController.OnTriggerHold();
+		}
+		if (Input.GetMouseButtonUp(0)) {
+			gunController.OnTriggerRelease();
 		}
     }
 }
