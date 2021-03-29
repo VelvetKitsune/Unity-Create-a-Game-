@@ -440,7 +440,7 @@ GameObject:
   - component: {fileID: -407041983166123031}
   - component: {fileID: 682872501011489506}
   m_Layer: 0
-  m_Name: Gun
+  m_Name: PhaseArmRotaryMode
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -481,13 +481,13 @@ MonoBehaviour:
   - {fileID: 1653294607}
   projectile: {fileID: -8292897436016058717, guid: 6302cbb3a44c5c447815991d2a5c531f,
     type: 3}
-  msBetweenShots: 100
-  muzzleVelocity: 35
-  burstCount: 3
-  projectilesPerMag: 25
-  reloadTime: 0.3
-  kickMinMax: {x: 0.05, y: 0.2}
-  recoilAngleMinMax: {x: 3, y: 13}
+  msBetweenShots: 40
+  muzzleVelocity: 40
+  burstCount: 1
+  projectilesPerMag: 300
+  reloadTime: 3
+  kickMinMax: {x: 0.1, y: 0.2}
+  recoilAngleMinMax: {x: 7, y: 30}
   recoilMoveSettleTime: 0.1
   recoilRotationSettleTime: 0.1
   shell: {fileID: 8845137905592926468, guid: cd41209e8253fdb46a6eeddbcd20dc32, type: 3}
