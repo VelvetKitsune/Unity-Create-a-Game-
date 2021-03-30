@@ -440,7 +440,7 @@ GameObject:
   - component: {fileID: -407041983166123031}
   - component: {fileID: 682872501011489506}
   m_Layer: 0
-  m_Name: PhaseArmDuelMode
+  m_Name: PhaseArmBasicMode
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -492,6 +492,8 @@ MonoBehaviour:
   recoilRotationSettleTime: 0.1
   shell: {fileID: 8845137905592926468, guid: cd41209e8253fdb46a6eeddbcd20dc32, type: 3}
   shellEjection: {fileID: 2592885986491796000}
+  shootAudio: {fileID: 8300000, guid: 400ebecf8d06c6142874e50586be46f2, type: 3}
+  reloadAudio: {fileID: 8300000, guid: b26d21603f680ee45983fe1268de7c85, type: 3}
 --- !u!114 &682872501011489506
 MonoBehaviour:
   m_ObjectHideFlags: 0
