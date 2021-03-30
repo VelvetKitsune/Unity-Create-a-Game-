@@ -88,7 +88,7 @@ public class Gun : MonoBehaviour {
 			recoilAngle += Random.Range(recoilAngleMinMax.x, recoilAngleMinMax.y);
 			recoilAngle = Mathf.Clamp (recoilAngle, 0, 30);
 			
-			AudioManager.instance.PlaySound (shootAudio, transform.position);
+			AudioManager.instance.PlaySound2D (shootAudio);
 		}
 		
 	}
@@ -96,7 +96,7 @@ public class Gun : MonoBehaviour {
 	public void Reload() {
 		if (!isReloading && projectilesRemainingInMag != projectilesPerMag){
 			StartCoroutine(AnimateReload());
-			AudioManager.instance.PlaySound (reloadAudio, transform.position);
+			AudioManager.instance.PlaySound2D (reloadAudio);
 		}
 	}
 	

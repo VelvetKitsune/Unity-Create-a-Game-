@@ -100,6 +100,12 @@ public class AudioManager : MonoBehaviour {
 		PlaySound (library.GetClipFromName (soundName), pos);
 	}
 	
+	public void PlaySound2D (AudioClip clip) {
+		if (clip != null) {
+			sfx2DSource.PlayOneShot (clip, sfxVolumePercent * masterVolumePercent);
+		}
+	}
+	
 	public void PlaySound2D (string soundName) {
 		sfx2DSource.PlayOneShot (library.GetClipFromName (soundName), sfxVolumePercent * masterVolumePercent);
 	}
